@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <title>
+            Favorite Video Game Interest Form!
+        </title>
+        <style>
+            body {
+                background-color: darksalmon;
+            }
+
+            input {
+                background-color: cadetblue;
+                color: white 
+            }
+
+            .videoGameTitle {
+                font-size: large;
+                margin-left: 200px;
+                margin-right: 200px;
+            }
+
+            .videoGameExplanation {
+                font-size: large;
+                margin-left: 200px;
+                margin-right: 200px;
+            }
+
+
+            input[type="submit"] {
+                background-color: crimson;
+                margin-left: 445px;
+            }
+
+            input[type="submit"]:hover {
+                background-color: green;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1>Tell me your favorite video game and why!</h1>
+        <form name="videoGameForm" method="get" action="Lab2 - Nick Dossin - Form Success.html">
+            <div class="videoGameTitle">
+                <!-- Video Game Name Info -->
+                <label for="videoGameTitle"> What's the name of the video game/game series?</label>
+                <input type="text" id="videoGameTitle" required>    
+                <br><br>
+            </div>
+            <!-- Video Game Explanation -->
+             <div class="videoGameExplanation">
+                <label for="videoGameExplanation"> Tell me why you love this game/series!</label>
+                <input type="text" id="videoGameExplanation" required>
+                <br>
+                <hr>
+            </div>
+            <input type="submit">
+        </form>
+    </body>
+</html>
